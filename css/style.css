@@ -1,0 +1,184 @@
+::-webkit-scrollbar{
+  width: 0px;
+  height: 0px;
+  background: transparent;
+}
+
+body {
+  min-height: 100%;
+  background-image: url(https://static.pexels.com/photos/117511/pexels-photo-117511.jpeg);
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+html{
+  min-height: 100%;
+}
+a {
+    color: black;
+    text-decoration: none!important;
+}
+a:hover {
+    color: black;
+    text-decoration: none!important;
+}
+#searchbox {
+  border: 2px solid;
+  border-radius: 10px;
+  text-align: center;
+  color: black;
+  width: 250px;
+  height: auto;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  background-color:lightslategray;
+}
+
+.go {
+  font-weight: bold;
+  font-family: calibri;
+  border: solid 2px black;
+  border-radius: 5px;
+  background-color: lightslategray;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  height: automatic;
+  padding: auto;
+  font-size: 18px;
+  width: 33.333%;
+  height: 30px;
+}
+
+.go:active{
+  background-color: lightgray;
+}
+
+#add{
+  top: 10px;
+  width: 30px;
+}
+#resultWell .statusDesc{
+  float: right;
+}
+
+img{
+  float: left;
+  border: .18 solid black;
+}
+
+#searchDiv{
+  background-color:#f5f5f5
+}
+#resultWell {
+  opacity: 0.9;
+   position:center;
+  border: solid 10px slategray;
+  background-color: none;
+  width: 400px;
+  margin: 0 auto;
+  height: 750px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+p {
+    color: black!important;
+  font-weight: bold;
+}
+
+#showAll {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+
+}
+
+
+#showAll:active {
+  color: black;
+  background-color: lightgray;
+}
+
+#showOnline {
+  color: lightgreen;
+  text-decoration: none;
+  background-color: green;
+
+}
+
+#showOnline:active {
+  color: green;
+  background-color: lightgreen;
+
+}
+
+#showOffline {
+  color: pink;
+  text-decoration: none;
+  background-color: red;
+}
+
+#showOffline:active {
+  color: red;
+  background-color: pink;
+  }
+
+.profilePic{
+  float:left;
+  width: 20%;
+  height: 100%;
+  max-width: 30%;
+}
+
+.offline {
+  font-weight: bold;
+  font-family: calibri;
+  border: solid 2px black;
+  background-color: lightsalmon;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none!important;
+  position: relative;
+  height: automatic;
+  padding: 10px;
+  font-size: 18px;
+  width: 100%;
+  height: auto;
+}
+
+.online{
+    font-weight: bold;
+  font-family: calibri;
+  border: solid 2px black;
+  background-color: lightgreen;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  height: automatic;
+  padding: 10px;
+  font-size: 18px;
+  width: 100%;
+  height: auto;
+}
+
+.kappa{
+  position: absolute;
+    top: 0;
+  right: 0;
+  width: 20px;
+}
+
+.clicked{
+  font-size:22px;
+}
+
+@media screen and (max-width: 700px){
+  #resultWell{
+    width: 90vw;
+  }
+}
+
