@@ -6,8 +6,8 @@
 
 body {
   min-height: 100%;
-  background-image: url(https://static.pexels.com/photos/117511/pexels-photo-117511.jpeg);
-    background-size: cover;
+  background-image: url("tv.jpg");
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -47,7 +47,7 @@ a:hover {
   height: automatic;
   padding: auto;
   font-size: 18px;
-  width: 33.333%;
+  width: 32%;
   height: 30px;
 }
 

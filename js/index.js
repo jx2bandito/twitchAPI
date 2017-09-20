@@ -3,8 +3,8 @@
 
 
 $(document).ready(function() {
-  var kappa = "<img class = kappa title = 'Close' src =http://images.akamai.steamusercontent.com/ugc/704037974368379698/11D98DBA7F3366506B70E5600E1C9BCCCE6C94C2/>";
-var streamers = ["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "habathcx", "RobotCaleb", "noobs2ninjas", "nightblue3"];
+  var kappa = "<img class=kappa title='Close' src=images/kappa.png>";
+  var streamers = ["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "habathcx", "RobotCaleb", "noobs2ninjas", "nightblue3"];
   var clientID = "?client_id=9kpvmpl0li44j8x54q75ch1hxzfutm";
   var status;
   $.ajaxSetup({
