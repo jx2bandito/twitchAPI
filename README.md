@@ -7,6 +7,4 @@ in JavaScript is bad practice, but for the purpose of this exercise it was deeme
 <br />
 <br />Project page: https://jx2bandito.github.io/twitchAPI/
 <br />
-<br />Originally made in Codepen: https://codepen.io/jx2bandito/pen/eBaVvp
-<br />
 <br />FreeCodeCamp prompt: https://www.freecodecamp.org/challenges/use-the-twitchtv-json-api
