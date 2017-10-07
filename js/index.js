@@ -7,9 +7,6 @@ $(document).ready(function() {
   var streamers = ["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "habathcx", "RobotCaleb", "noobs2ninjas", "nightblue3"];
   var clientID = "?client_id=9kpvmpl0li44j8x54q75ch1hxzfutm";
   var status;
-  $.ajaxSetup({
-    async: false
-  });
   $("#showOnline").on("click", function() {
     $(this).addClass("clicked");
     $("#showOffline").removeClass("clicked");
@@ -36,7 +33,7 @@ $(document).ready(function() {
     $(this).closest("div").remove();
   });
 
-  for (var a = 0; a < streamers.length; a++) {
+  for (let a = 0; a < streamers.length; a++) {
     $.getJSON('https://api.twitch.tv/kraken/streams/' + streamers[a] + clientID, function(json) {
       var profilePic;
       var status;
